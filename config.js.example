@@ -1,0 +1,7 @@
+module.exports = {
+  remote: "https://<%- username %>.cloudant.com/<%- db %>",
+  auth: {
+    user: '<%- adm_user %>',
+    pass: '<%- adm_pass %>'
+  }
+};

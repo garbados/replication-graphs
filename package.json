@@ -1,0 +1,34 @@
+{
+  "name": "replicationgraph",
+  "version": "0.0.0",
+  "description": "Create couchapps depicting graphs of users' replications.",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/garbados/replicationgraph"
+  },
+  "keywords": [
+    "couchdb",
+    "cloudant",
+    "d3",
+    "couchapp",
+    "graph"
+  ],
+  "author": "Max Thayer <garbados@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/garbados/replicationgraph/issues"
+  },
+  "devDependencies": {
+    "grunt-template": "0.2.1",
+    "request": "2.27.0",
+    "grunt-contrib-jshint": "0.6.4",
+    "grunt-couch": "1.2.3",
+    "grunt-prompt": "0.1.2",
+    "matchdep": "0.3.0",
+    "grunt": "~0.4.1"
+  }
+}
